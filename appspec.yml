@@ -5,10 +5,10 @@ files:
      destination: /home/ec2-user
 -hooks:
 -  ApplicationStart:
--    - location: scripts/start_server.sh
+-    - location: /
 -      timeout: 5
 -      runas: root
 -  ApplicationStop:
--    - location: scripts/stop_server.sh
+-    - location: /
 -      timeout: 5
 -      runas: root
